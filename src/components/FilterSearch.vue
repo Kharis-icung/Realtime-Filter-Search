@@ -1,7 +1,7 @@
 <template>
   <h1>Realtime Filter Search</h1>
   <div>
-    <input type="text" v-model="search" placeholder="Search...">
+    <input type="text" v-model="search" placeholder="Searching">
     <ul>
       <li v-for="item in filteredItems" :key="item.name">{{ item.name }}</li>
     </ul>
